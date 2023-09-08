@@ -32,7 +32,7 @@ for i in range(n_frames):
 fig, ax = plt.subplots()
 line, = ax.plot([], [])
 
-#animation begin
+#animation begin and let it be so
 def animate(i):
     line.set_data(x[:i], y[:i])
     return line,
